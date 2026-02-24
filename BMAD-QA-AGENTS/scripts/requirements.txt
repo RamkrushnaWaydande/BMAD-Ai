@@ -1,0 +1,11 @@
+# BMAD QA Agents - Python Dependencies
+# Install: pip install -r scripts/requirements.txt
+
+# DOCX generation (SRS Agent, MOM Agent)
+python-docx>=1.1.0
+
+# DOCX reading (reading .docx files from project-docs/)
+mammoth>=1.8.0
+
+# Excel/XLSX generation (User Stories Agent)
+openpyxl>=3.1.0
